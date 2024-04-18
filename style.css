@@ -45,7 +45,8 @@ body {
     border-left: 2px solid var(--botao-ativo); 
     border-right: 2px solid var(--botao-ativo); 
     border-top: none;
-    .botoes {
+}
+.botões {
         display: block;
     }
     
@@ -74,6 +75,23 @@ body {
             background-color: var(--botao-ativo);
             border-bottom: 4px solid var(--verde);
             }
+            .aba-conteudo.ativo{
+                display:block;   
+            }
+            .aba-conteudo{
+                display: none;
+            }
+            .aba-conteudo-titulo-principal{
+                font-size: 28px;
+                text-align: center;
+            }
+            .aba-conteudo-titulo-secundario{
+                text-align: center;
+                color: var(--verde);
+                text-transform: uppercase;
+            }
+            
+            
             
     }
-}            
+           
